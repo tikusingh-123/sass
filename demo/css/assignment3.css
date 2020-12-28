@@ -1,0 +1,31 @@
+container, .containerone, .containertwo {
+  display: flex;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #4438f3;
+  width: 42%; }
+
+.container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 200px;
+  float: left; }
+
+.containerone .container {
+  background-color: #f5ad6a; }
+  .containerone .container .left {
+    background-color: #06553d; }
+  .containerone .container .right {
+    background-color: #36d4da; }
+    .containerone .container .right .button1 {
+      background-color: #db6537; }
+
+.containertwo .container {
+  background-color: #b8fa20; }
+  .containertwo .container .left {
+    background-color: #f1a44b; }
+  .containertwo .container .right {
+    background-color: brown; }
+    .containertwo .container .right .button1 {
+      background-color: red; }

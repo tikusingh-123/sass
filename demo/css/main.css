@@ -1,0 +1,10 @@
+body {
+  background-color: lightblue;
+  color: darkblue;
+  font-size: 18px; }
+
+#button1 {
+  background-color: #00ff4c;
+  color: blue;
+  padding: 2em 3em;
+  border: 10px #00ff55 solid black; }

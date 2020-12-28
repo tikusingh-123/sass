@@ -1,0 +1,57 @@
+input, .disabled, .error {
+  border-radius: 3px;
+  width: 300px;
+  height: 36px;
+  font-family: normal;
+  font-size: 13px;
+  padding-left: 10px; }
+
+.normal {
+  background-color: #87f5be;
+  color: #360fe4;
+  font-style: SegoUI; }
+
+.disabled {
+  Border: 1px solid #cccccc;
+  background-color: #f0f5f2f5;
+  color: #7e7b7bd5;
+  cursor: not-allowed; }
+
+.error {
+  Background-color: #fcb8a6;
+  border: 1px solid #e92416;
+  color: #f44336; }
+
+button1, .primarybutton, .secondarybutton {
+  border-radius: 3px;
+  padding: 12px 15px 12px 15px;
+  min-width: 110px;
+  font-family: "SegoeUI SemiBold";
+  font-size: 16px;
+  color: #FFFFFF; }
+
+.primarybutton {
+  background-color: #8bc34a;
+  color: #FFFFFF;
+  border: 1px solid #8bc34a; }
+  .primarybutton:hover {
+    background-color: #9dce5d;
+    color: #FFFFFF;
+    border: 1px solid #9dce5d; }
+  .primarybutton:disabled {
+    background-color: #eeeeee;
+    color: #FFFFFF;
+    border: 1px solid #eeeeee; }
+
+.secondarybutton {
+  background-color: #FFFFFF;
+  color: #2095f2;
+  border: 1px solid #2095f2; }
+  .secondarybutton:hover {
+    background-color: #2095f2;
+    color: #FFFFFF;
+    border: 1px solid #2095f2; }
+  .secondarybutton:disabled {
+    background-color: #ffffff;
+    color: #999999;
+    border: 1px solid #cccccc; }

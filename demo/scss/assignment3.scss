@@ -1,0 +1,60 @@
+@import "assignment3mixin";
+
+
+container{
+
+    
+   display: flex;
+  
+padding: 5px;
+
+border-radius: 5px;
+border: 2px solid #4438f3; 
+width: 42%
+
+    
+
+}
+
+
+.container > div{
+
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width:200px;
+    float: left;
+}
+
+
+
+
+
+
+
+.containerone{
+
+@extend container;
+
+
+@include container1( rgb(245, 173, 106),rgb(6, 85, 61),rgb(54, 212, 218), rgb(219, 101, 55));
+
+
+}
+
+
+.containertwo
+{
+
+    @extend container;
+    
+    @include container1(rgb(184, 250, 32), rgb(241, 164, 75),brown,red);
+
+
+}
+
+
+
+
+
+
