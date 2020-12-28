@@ -53,6 +53,14 @@ width: 42%
 
 }
 
+.containerone:hover {
+    background-color: lighten($color:rgb(245, 173, 106), $amount: 5%);
+}
+
+.containertwo:hover {
+    background-color: lighten($color:rgb(184, 250, 32), $amount: 5%);
+}
+
 
 
 
